@@ -1,7 +1,7 @@
 # BigInt
 A data type that is a pseudo infinite integer type, which can store very large integer values ( the number of digits that can be stored is limited only by available memory). This is a templatized class, which supports both Lists and Vectors containers (the versions of List and Vector in this repository were implemented by me, based on the STL). The other template is what type of data can be stored, and that is all primitive types except booleans.
 
-### Supported operations
+### Supported operations (for both Negative, Positive, and '0' BigInts)
 - Addition
 - Subtraction
 - Assignment
@@ -9,7 +9,9 @@ A data type that is a pseudo infinite integer type, which can store very large i
 - Write to output
 - Read from input
 
-![Addition and Subtraction of BigInts]
+![Addition of BigInts](https://i.imgur.com/7MW37KF.png)
+
+![Subtraction of BigInts](https://i.imgur.com/Ku5aEah.png)
 
 ## Challenges/Learning
 This project was quite challenging for me, mainly because of the way I approached it. These BIGINTs were supposed to be read in from a file, and they would then be stored. So as to not limit the size of a BIGINT that could be stored by reading in the data line by line (using strings), I had to read in char by character. This meant that the greatest value digit was stored at index 0, the next greatest at digit 1, and so on. 
