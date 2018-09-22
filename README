@@ -1,0 +1,8 @@
+The main difficulty I faced was storing the digits. I did not want to waste any space or runtime, so I decide the bets way to store would be with a boolean flag indicating if the bigint is in forwards or reverse order. Unfortunately, this meant that I had 4 times as many cases when dealing with addition, subtraction, and comparisons (possibilities: (f,f) (f,r), (r,f), (r,r).
+
+Just use the 'make' command and the code should run.
+
+I also don't know why, but login to the cs-class.uis.georgetown just wasn't working for me, as it would just take in the information and never prompt me for the password. 
+
+
+Also sorry for the lack of comments and bad readability, I had a lot of test cases and was running short on time. I will try to bring a commented copy of the code to the code review. Thanks!
