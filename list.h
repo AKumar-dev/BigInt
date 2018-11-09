@@ -43,7 +43,7 @@ class List {
 		}
 		Iterator operator--(int){ //postfix--
 			Iterator old = *this;
-			++(*this);
+			--(*this);
 			return old;
 		}
 		Iterator& operator++(){ //prefix++
